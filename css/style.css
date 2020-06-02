@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Justus";
+    src: url("fonts/Justus/JustusProRegular.TTF");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Justus-bold";
+    src: url("fonts/Justus/JustusProBold.TTF");
+    font-weight: 200;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Code+Pro:wght@300&display=swap');
+
+html {
+    text-transform: normal;
+}
+
+h1 {
+    color: rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bio-header {
+    color: saddlebrown;
+}
+
+#skills-header {
+    color: seagreen;
+}
+
+.content {
+    color: grey;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 10px 20px;
+    padding: 5px;
+    border-top: solid 1px black;
+    max-width: 75%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.Img-div {
+    background-color: skyblue;
+}
+
+.light {
+    background-color: teal;
+}
+
+img {
+    width: 20.6%;
+    box-shadow: 3px 3px 7px black;
+    margin: 2%;
+}
+
+#img1 {
+   position: fixed;
+   top: 10px;
+   left: 10px;
+}
+
